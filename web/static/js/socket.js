@@ -22,7 +22,7 @@ channel.join()
     })
     document.getElementById("backward").addEventListener("mousedown", _event => {
       console.log("backward")
-      channel.push("drive", {velocity: -100, radius: 0})
+      channel.push("drive", {velocity: 100, radius: 0})
     })
     document.getElementById("left").addEventListener("mousedown", _event => {
       console.log("left")
